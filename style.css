@@ -407,7 +407,7 @@ ul li a:hover:after {
     }
   }
 
-  @media (max-width: 30em) {    
+  @media (max-width: 32em) {    
     .centered {
         margin-top: -170px;
         font-size:5vw;
