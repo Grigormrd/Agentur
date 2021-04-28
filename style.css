@@ -357,6 +357,16 @@ ul li a:hover:after {
     .startbutton {
         font-size:2.5vw;
     }
+
+    .wrapper .table{
+        background: #fff;
+        width: calc(27.5% - 50px);
+        padding: 25px;
+        border: 0;
+        margin: 50px 25px 0px 25px;
+        position: relative;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      }
   }
 
   @media (max-width: 42em) {    
@@ -438,6 +448,7 @@ ul li a:hover:after {
     background: #fff;
     width: calc(28.5% - 50px);
     padding: 25px;
+    border: 0;
     margin: 50px 25px 0px 25px;
     position: relative;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -589,12 +600,18 @@ ul li a:hover:after {
     content: "Ultimate";
     font-size: 24px;
   }
-  @media (max-width: 1020px) {
+  @media (max-width: 1034px) {
     .wrapper .table{
-      width: calc(50% - 20px);
-      margin-bottom: 40px;
-    }
+        background: #fff;
+        width: calc(90.5% );
+        padding: 25px;
+        border: 0;
+        margin: 50px 25px 0px 25px;
+        position: relative;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      }
   }
+
   @media (max-width: 698px) {
     .wrapper .table{
       width: 100%;
