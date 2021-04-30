@@ -418,6 +418,15 @@ ul li a:hover:after {
     .startbutton {
         font-size:2.5vw;
     }
+
+    .socialIcons {
+        margin-left: 60px;
+    }
+
+    .profil {
+      padding-right: 50px;
+  }
+
   }
 
   @media (max-width: 34em) {    
