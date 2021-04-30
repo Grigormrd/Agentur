@@ -636,7 +636,7 @@ ul li a:hover:after {
 
   @media (max-width: 40em) {
     .wrapper {
-       width: 90%;
+       width: 100%;
       }
   }
 
@@ -698,6 +698,7 @@ ul li a:hover:after {
 
   .socialIcons img {
     padding: 10px;
+    margin-left: 27px;
   
   }
 
