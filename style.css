@@ -424,10 +424,23 @@ ul li a:hover:after {
     }
 
     .profil {
-      padding-right: 50px;
-  }
+        padding: 0;
+        margin-left: 100px;
+    }
 
   }
+
+  @media (max-width: 400px) {    
+    .socialIcons {
+      margin-left: 0px;
+    }
+
+    .profil {
+      padding-left: 1em;
+
+    }
+
+    }
 
   @media (max-width: 34em) {    
     .centered {
