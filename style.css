@@ -426,18 +426,19 @@ ul li a:hover:after {
     .profil {
         padding: 0;
         margin-left: 100px;
+        margin-top: 0px;
     }
 
   }
 
   @media (max-width: 400px) {    
     .socialIcons {
-      margin-left: 0px;
+      margin-left: -5px;
+      margin-top: 0;
     }
 
     .profil {
-      padding-left: 1em;
-
+      padding-left: 0.5em;
     }
 
     }
