@@ -224,6 +224,20 @@ ul li a:hover:after {
         font-size:6vw;
         
     }
+
+    .profil {
+      width: 50%;
+      height: 50%;
+      padding-left: 19%;
+      border-radius:  50%;
+    }
+  
+    .socialIcons{
+      padding: 10px;
+      margin-top: 50px;
+      margin-left: 32vw;
+    }
+
   }
 
   @media (max-width: 59em) {    
@@ -309,6 +323,7 @@ ul li a:hover:after {
     .startbutton {
         font-size:2.5vw;
     }
+
   }
 
   @media (max-width: 46em) {    
@@ -612,6 +627,19 @@ ul li a:hover:after {
       }
   }
 
+
+  @media (max-width: 65em) {
+    .wrapper {
+       width: 60%;
+      }
+  }
+
+  @media (max-width: 40em) {
+    .wrapper {
+       width: 90%;
+      }
+  }
+
   @media (max-width: 698px) {
     .wrapper .table{
       width: 100%;
@@ -666,12 +694,11 @@ ul li a:hover:after {
     height: 50%;
     margin-left: 60px;
     border-radius:  50%;
-    transition: ease-in-out 0.2s;
   }
 
   .socialIcons img {
     padding: 10px;
-    margin-left: 20px;
+  
   }
 
   h3{
